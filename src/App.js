@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Salad from "./Components/Salad";
+import Myzik from "./Components/Myzik";
 function App() {
   const arrBocks=[
     {
@@ -27,6 +28,8 @@ function App() {
         <div>{review}</div>
         <div>{review}</div>
         <div>{review}</div>
+        <Myzik/>
+        <Salad/>
     </div>
   );
 }
